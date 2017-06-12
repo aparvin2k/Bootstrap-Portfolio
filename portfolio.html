@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<!-- Adding viewport and bootstarp tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title> Anthony Parvin's Portfolio</title>
+</head>
+
+<body>
+<!-- Adding container for the header section of my page and navbar -->
+<div class="container">
+<!-- Adding default navbar, fixing it to the top, and creating a custom class for css styling -->
+	<nav class="navbar navbar-default navbar-fixed-top nav-style">
+  		<div class="container">
+  			<div class="row">
+<!-- Adding the column dimensions for each break point -->
+  				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+<!-- Styling for the navbar header will be center text, a class for color, and a class for the padding -->
+					<div class="navbar-header text-center teal-back side-padding">
+<!-- Adding class for the header so that I can style the way I want -->
+						<h1 class="h1font">Anthony Parvin</h1>
+					</div>
+				</div>
+<!-- Adding the column dimensions for each break point -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<!-- Adding the 'navbar-right' to make sure that the nav links are to the right of the navbar-->
+	          		<ul class="nav navbar-nav navbar-right med-sm-cen">
+						<li><a href="index.html">About</a></li>
+<!-- Adding the active active class to the Portfolio link as well as the sr-only with current styling so that the user will know what page they are on -->								<li class="active"><a id="borderline" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
+	           			<li><a href="contact.html">Contact</a></li>
+	            	</ul>
+				</div>
+			</div>
+		</div>	
+	</nav>	
+<!-- Creating the container for my links -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 zero-padding">
+<!-- Using the same class as in the index file -->
+				<div class="panel panel-default panel-1">
+		 			 <div class="panel-heading">
+<!-- Using the same class as in the index file -->
+		    			<h2 class="panel-title section-title">Portfolio</h2>
+		  			 </div>
+		  			 <div class="panel-body">
+		  			 	<div class="row">
+		  			 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+<!-- Creating a class to control the position and alignment of the images -->
+		  			 			<div class="img-position img-align">
+									<a href="" target="_blank"><img class="img-responsive" src="assets/images/image1.jpg" alt="placeholder">
+									<div class="caption">Hangman</div></a>
+								</div>
+		  			 		</div>
+		  			 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		  			 			<div class="img-position img-align">
+									<a href="" target="_blank"><img class="img-responsive" src="assets/images/image2.jpg" alt="placeholder">
+									<div class="caption">RPG Game</div></a>
+		  			 			</div>
+		  			 		</div>
+		  			 	</div>
+		  			 	<div class="row">
+		  			 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		  			 			<div class="img-position img-align">
+									<a href="" target="_blank"><img class="img-responsive" src="assets/images/image3.jpg" alt="placeholder">
+									<div class="caption">Trivia Game</div></a>
+		  			 			</div>
+		  			 		</div>
+		  			 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		  			 			<div class="img-position img-align">
+									<a href="" target="_blank"><img class="img-responsive" src="assets/images/image4.jpg" alt="placeholder">
+									<div class="caption">Rutgers Info Widget</div></a>
+		  			 			</div>
+		  			 		</div>
+		  			 	</div>
+						<div class="row">
+		  			 		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		  			 			<div class="img-position img-align">
+									<a href="" target="_blank"><img class="img-responsive" src="assets/images/image5.jpg" alt="placeholder">
+									<div class="caption">Rock Paper Scissors</div></a>
+		  			 			</div>
+		  			 		</div>
+		  			 	</div>
+					 </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 zero-padding">
+<!-- Create a class to make the section be on the top right of the page -->
+				<div class="panel panel-default panel-2">
+					<div class="panel-heading custom-heading">
+			    		<h2 class="panel-title section-title">Connect with Me</h2>
+			  		</div>
+			  		<div class="panel-body">
+			  			<a href="https://github.com/aparvin2k" target="_blank"><img src="assets/images/github.png" alt="Anthony's Github"></a>
+						<a href="https://www.linkedin.com/in/anthonyparvin/" target="_blank"><img src="assets/images/linkedin.png" alt="Anthony's Linkedin"></a>
+						<a href="https://stackoverflow.com/users/8016255/anthony-parvin" target="_blank"><img src="assets/images/stackoverflow.png" alt="Anthony's Stackoverflow"></a>
+			  		</div>
+			  	</div>
+		  	</div>
+		</div>
+	</div>
+ </div>
+<!-- Create the footer navbar. Want it fixed to the bottom and the text to be lighter -->
+<div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+  <div class="container-fluid">
+    <p class="text-muted text-center footer">&copy;Copyright 2017 Anthony Parvin</p>
+  </div>
+</div>
+
+</body>
+</html>

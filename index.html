@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<!-- Adding viewport and bootstarp tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title> Anthony Parvin's Portfolio</title>
+</head>
+
+<body>
+<!-- Adding container for the header section of my page and navbar -->
+<div class="container">
+<!-- Adding default navbar, fixing it to the top, and creating a custom class for css styling -->
+	<nav class="navbar navbar-default navbar-fixed-top nav-style">
+  		<div class="container">
+  			<div class="row">
+<!-- Adding the column dimensions for each break point. Had to add a class for the padding once the screen is at a tablet and smaller -->
+  				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding">
+<!-- Styling for the navbar header will be center text, a class for color, and a class for the padding -->
+					<div class="navbar-header text-center teal-back side-padding">
+<!-- Adding class for the header so that I can style the way I want -->
+						<h1 class="h1font">Anthony Parvin</h1>
+					</div>
+				</div>
+<!-- Adding the column dimensions for each break point -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<!-- Adding the 'navbar-right' to make sure that the nav links are to the right of the navbar-->
+	          		<ul class="nav navbar-nav navbar-right med-sm-cen">
+<!-- Adding the active active class to the About link as well as the sr-only with current styling so that the user will know what page they are on -->
+						<li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+	           			<li><a id="border" href="portfolio.html">Portfolio</a></li>
+	           			<li><a href="contact.html">Contact</a></li>
+	            	</ul>
+				</div>
+			</div>
+		</div>	
+	</nav>	
+<!-- Creating the new container for my content section -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 zero-padding">
+<!-- Need to create a class to adjust the panel margins for the About me page -->
+				<div class="panel panel-default panel-1">
+		 			 <div class="panel-heading custom-heading">
+		    			<h2 class="panel-title section-title">About Me</h2>
+		  			 </div>
+		  			 <div class="panel-body">
+<!-- Create a responsive image that is positioned on the left side of the container. Need to create a class that will adjust the margin of the image as well -->
+		  			 <img class="img-responsive pull-left img-margin" src="assets/images/apheadshot.png" alt="Anthony Parvin">
+						<p class="body-content">
+							I am an effective senior business consultant with over 6+ years of proven success in setting strategy for targeted projects and implementing them in a proficient manner. Driven to develop and lead projects that surpass corporate goals based on: (1) a deep understanding of customer needs and preferences, (2) having meaningful dialogue between the business and its clients, and (3) optimizing resources. Data-and-people-driven leader with a proven record of building trust and pushing boundaries, with an eye on bottom line results.
+						<p class="body-content">
+							I am currently learning enrolled in a coding bootcamp to learn about programming and all of the different applications. I am excited about the opportunity to use programming to look at raw data as it is created instead of just the end result. Being able to analyze multiple forms of data and putting them together in a recognizable format offers the chance for me to solve challenging problems, something I enjoy doing often. Programming also allows me to express my creative side.
+						</p>
+						<p class="body-content">
+							I am an avid sports fan. I enjoying playing and watching most sports. I do have teams that I support but in general I am a fan of the game. I also have a strong interest in the video game industry. I love my Playstation 4 console but I am a fan of all systems.
+						</p>
+		    		 </div>
+				</div>
+			</div>
+<!-- Creating the Connect with me section with the sizing breaks -->
+			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 zero-padding">
+<!-- Create a class to make the section be on the top right of the page -->
+				<div class="panel panel-default panel-2">
+					<div class="panel-heading custom-heading">
+			    		<h2 class="panel-title section-title">Connect with Me</h2>
+			  		</div>
+			  		<div class="panel-body">
+			  			<a href="https://github.com/aparvin2k" target="_blank"><img src="assets/images/github.png" alt="Anthony's Github"></a>
+						<a href="https://www.linkedin.com/in/anthonyparvin/" target="_blank"><img src="assets/images/linkedin.png" alt="Anthony's Linkedin"></a>
+						<a href="https://stackoverflow.com/users/8016255/anthony-parvin" target="_blank"><img src="assets/images/stackoverflow.png" alt="Anthony's Stackoverflow"></a>
+			  		</div>
+			  	</div>
+		  	</div>
+		</div>
+	</div>
+ 
+
+</div>
+<!-- Create the footer navbar. Want it fixed to the bottom and the text to be lighter -->
+<div class="navbar navbar-default navbar-fixed-bottom" id="footer">
+  <div class="container-fluid">
+    <p class="text-muted text-center footer">&copy;Copyright 2017 Anthony Parvin</p>
+  </div>
+</div>
+
+</body>
+</html>

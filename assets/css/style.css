@@ -1,0 +1,171 @@
+/*I want the height of my page to always be 100% and that the position to always be relative*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/*Applying the style provided by the assignment to the body and providing extra space to the bottom margin*/
+body {
+	margin-bottom: 80px;
+	background-image: url(../images/old_moon.png);
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-family: Arial, 'Helvetica Nueue', Helvetica, sans-serif;
+}
+/*Styling my name box for each page*/
+.teal-back {
+	background-color: #4aaaa5;
+}
+/*Styling my About me and Connect with me Sections to have 0 padding*/
+.zero-padding {
+	padding: 0;
+}
+/*Styling my name tag to have padding on both sides*/
+.side-padding {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*Styling my h1 header to match the HW requirement*/
+.h1font {
+	font-family: Georgia;
+	color: #ffffff;
+}
+/*Styling my About me and Connect with me titles*/
+.section-title {
+	font-family: Georgia;
+	font-size: 24px;
+	color: #4aaaa5;
+}
+/*Styling my navbar to have the color specified in the HW assignment and giving it a border*/
+.nav-style {
+	border-bottom: solid 2px #cccccc;
+	background-color: #ffffff;
+}
+/*Styling the navbar links to be consistent in size and spacing*/
+.nav li a {
+	font-size: 16px;
+	padding: 0 15px 0 15px;
+	margin: 20px 0 0 0; 
+}
+/*Styling the border for the Portfolio navbar link*/
+#border {
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+}
+/*Styling my About me section*/
+.panel-1 {
+	margin: 100px 0 42px 0;
+}
+/*Styling my Connect with me section and making sure it floats right*/
+.panel-2 {
+	margin: 100px 20px 32px 0;
+	float: right;
+}
+/*Styling the margin for my Profile picture*/
+.img-margin {
+	margin: 0 20px 0 0;
+}
+/*Styling the body of my About me section*/
+.body-content {
+	margin: -10px 0 0 0;
+	text-indent: 50px;
+	font-size: 16px;
+	font-family: Helvetica;
+	line-height: 36px;
+	padding-bottom: 12px;
+	color: #777777;
+}
+/*Styling the alignment of the images on the Portfolio page*/
+.img-align {
+	margin: 15px 0 15px 0;
+}
+/*Styling the postion of the images on the Portfolio page*/
+.img-position {
+	position: relative;
+}
+/*Styling the captions of the images on the Portfolio page*/
+.caption {
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	width: 100%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+	position: absolute;
+	bottom: 10px;
+	color: #ffffff;
+	background: #4aaaa5;
+}
+/*Styling the label on the Contact page*/
+label {
+	font-family: Helvetica;
+	color: #777777;
+}
+/*Styling for the Submit button on the Contact page*/
+.submit-btn {
+	font-size: 18px;
+	font-family: Helvetica;
+	color: #ffffff;
+	border: none;
+	background: #4aaaa5;
+}
+/*Styling the footer navbar*/
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	border-top: solid 9px #4aaaa5;
+	background: #666666;
+}
+/*Styling the footer text*/
+.footer {
+	padding-top: 23px;
+	color: #cccccc;
+}
+/*Clearing the floating elements for the words when reading on phone*/
+@media screen and (max-width: 490px) {
+	.body-content {
+		clear: both;
+	}
+}
+/*Styling for tablets*/
+@media screen and (max-width: 767px) {
+    .nav li a {
+		float: left;
+		margin: 5px 0 5px 0;
+    }
+
+	.no-padding {
+		padding: 0;
+	}
+
+	.panel-1 {
+		margin: 125px 0 0 0;
+	}
+
+	.panel-2 {
+		margin: 42px 0 32px 0;
+		float: none;
+	}
+
+	.img-align {
+		margin: 30px 0 15px 0;
+	}
+}
+/*Styling for space between tablets and desktop*/
+@media screen and (min-width: 768px) and (max-width: 989px) {
+	.panel-1 {
+		margin: 125px 0 0 0;
+	}
+
+	.panel-2 {
+		width: 100%;
+		margin: 42px 0 32px 0;
+		float: none;
+	}
+
+	.img-align {
+		margin: 30px 0 15px 0;
+	}
+
+}
