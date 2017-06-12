@@ -132,7 +132,7 @@ label {
 	}
 }
 /*Styling for tablets*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .nav li a {
 		float: left;
 		margin: 5px 0 5px 0;
@@ -163,7 +163,7 @@ label {
 /*Styling for space between tablets and desktop*/
 @media screen and (min-width: 768px) and (max-width: 989px) {
 	.nav li a {
-		float: right;
+		float: left;
 		margin: 5px 0 5px 0;
     }
 
